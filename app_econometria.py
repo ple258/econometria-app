@@ -96,4 +96,4 @@ st.write(f"**R²:** {r2:.4f}")
 if opcion_datos == "Generar datos aleatorios":
     if st.sidebar.button("🎲 Generar nuevos datos aleatorios"):
         df = generar_datos_financieros(n_muestra)
-        st.experimental_rerun()
+        st.rerun()
